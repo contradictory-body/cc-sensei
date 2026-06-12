@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.git/
+.gitignore
+方案/
+assets/
+examples/
+scripts/demo-screenshot.ts
+*.md
+LICENSE
+CONTRIBUTING.md
