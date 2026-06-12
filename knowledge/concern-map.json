@@ -1,0 +1,318 @@
+{
+  "startup": [
+    "M01"
+  ],
+  "trust-dialog": [
+    "M01"
+  ],
+  "memoized-init": [
+    "M01"
+  ],
+  "fast-path": [
+    "M01"
+  ],
+  "lifecycle": [
+    "M01"
+  ],
+  "query-loop": [
+    "M02"
+  ],
+  "streaming": [
+    "M02",
+    "SUPP-largeFiles"
+  ],
+  "context-trimming": [
+    "M02"
+  ],
+  "error-recovery": [
+    "M02"
+  ],
+  "budget": [
+    "M02"
+  ],
+  "tool-interface": [
+    "M03"
+  ],
+  "execution-pipeline": [
+    "M03"
+  ],
+  "streaming-executor": [
+    "M03"
+  ],
+  "bash-security": [
+    "M04"
+  ],
+  "AST-parsing": [
+    "M04"
+  ],
+  "approval-flow": [
+    "M04"
+  ],
+  "sandbox": [
+    "M04"
+  ],
+  "fallback-chain": [
+    "M05"
+  ],
+  "cache-detection": [
+    "M05"
+  ],
+  "providers": [
+    "M05"
+  ],
+  "retry": [
+    "M05",
+    "M09",
+    "M22"
+  ],
+  "compaction": [
+    "M06"
+  ],
+  "memdir": [
+    "M06"
+  ],
+  "persistent-memory": [
+    "M06"
+  ],
+  "structured-summary": [
+    "M06"
+  ],
+  "tree-sitter": [
+    "M07"
+  ],
+  "collect-then-reduce": [
+    "M07"
+  ],
+  "optimistic-lock": [
+    "M07"
+  ],
+  "scope-config": [
+    "M08"
+  ],
+  "dynamic-tool-model": [
+    "M08"
+  ],
+  "OAuth": [
+    "M08"
+  ],
+  "dedup": [
+    "M08"
+  ],
+  "plugin-discovery": [
+    "M09"
+  ],
+  "generation-counter": [
+    "M09"
+  ],
+  "bridge-types": [
+    "M10"
+  ],
+  "token-layering": [
+    "M10"
+  ],
+  "stdin-protocol": [
+    "M10"
+  ],
+  "TUI-engine": [
+    "M11"
+  ],
+  "yoga": [
+    "M11",
+    "SUPP-yogaLayout"
+  ],
+  "double-buffer": [
+    "M11"
+  ],
+  "hit-test": [
+    "M11"
+  ],
+  "4-layer": [
+    "M12"
+  ],
+  "virtual-list": [
+    "M12"
+  ],
+  "streaming-markdown": [
+    "M12"
+  ],
+  "hooks": [
+    "M13"
+  ],
+  "vim": [
+    "M13"
+  ],
+  "paste-handler": [
+    "M13"
+  ],
+  "suggestions": [
+    "M13"
+  ],
+  "task-types": [
+    "M14"
+  ],
+  "fork-cache": [
+    "M14"
+  ],
+  "cleanup": [
+    "M14"
+  ],
+  "stall-watchdog": [
+    "M14"
+  ],
+  "skill-format": [
+    "M15"
+  ],
+  "security-wall": [
+    "M15"
+  ],
+  "lazy-extraction": [
+    "M15"
+  ],
+  "command-types": [
+    "M16"
+  ],
+  "memoize": [
+    "M16"
+  ],
+  "lazy-import": [
+    "M16"
+  ],
+  "migration": [
+    "M17"
+  ],
+  "remote-settings": [
+    "M17"
+  ],
+  "policy-limits": [
+    "M17"
+  ],
+  "analytics": [
+    "M18"
+  ],
+  "transports": [
+    "M18"
+  ],
+  "feature-flags": [
+    "M18"
+  ],
+  "killswitch": [
+    "M18"
+  ],
+  "3-layer-state": [
+    "M19"
+  ],
+  "createStore": [
+    "M19"
+  ],
+  "context-providers": [
+    "M19"
+  ],
+  "chord-resolver": [
+    "M20"
+  ],
+  "vim-mode": [
+    "M20"
+  ],
+  "focus-manager": [
+    "M20"
+  ],
+  "anti-cheat": [
+    "M21"
+  ],
+  "PRNG": [
+    "M21"
+  ],
+  "voice-integration": [
+    "M21"
+  ],
+  "VCR": [
+    "M22"
+  ],
+  "mock-facade": [
+    "M22"
+  ],
+  "DI": [
+    "M22"
+  ],
+  "watchdog": [
+    "M22"
+  ],
+  "agent-summary": [
+    "SUPP-AgentSummary"
+  ],
+  "magic-docs": [
+    "SUPP-AgentSummary"
+  ],
+  "fork-background": [
+    "SUPP-AgentSummary"
+  ],
+  "session-memory": [
+    "SUPP-SessionMemory"
+  ],
+  "compact": [
+    "SUPP-SessionMemory"
+  ],
+  "threshold-trigger": [
+    "SUPP-SessionMemory"
+  ],
+  "auto-dream": [
+    "SUPP-autoDream"
+  ],
+  "background-processing": [
+    "SUPP-autoDream"
+  ],
+  "diff": [
+    "SUPP-colorDiff"
+  ],
+  "color": [
+    "SUPP-colorDiff"
+  ],
+  "rendering": [
+    "SUPP-colorDiff"
+  ],
+  "memory-extraction": [
+    "SUPP-extractMemories"
+  ],
+  "persistence": [
+    "SUPP-extractMemories"
+  ],
+  "file-index": [
+    "SUPP-fileIndex"
+  ],
+  "search": [
+    "SUPP-fileIndex"
+  ],
+  "lookup": [
+    "SUPP-fileIndex"
+  ],
+  "large-file": [
+    "SUPP-largeFiles"
+  ],
+  "chunking": [
+    "SUPP-largeFiles"
+  ],
+  "speculation": [
+    "SUPP-speculation"
+  ],
+  "prefetch": [
+    "SUPP-speculation"
+  ],
+  "optimistic": [
+    "SUPP-speculation"
+  ],
+  "team-sync": [
+    "SUPP-teamMemorySync"
+  ],
+  "shared-memory": [
+    "SUPP-teamMemorySync"
+  ],
+  "collaboration": [
+    "SUPP-teamMemorySync"
+  ],
+  "layout": [
+    "SUPP-yogaLayout"
+  ],
+  "flexbox": [
+    "SUPP-yogaLayout"
+  ]
+}

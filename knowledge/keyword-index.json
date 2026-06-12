@@ -1,0 +1,1240 @@
+{
+  "bootstrap": [
+    "M01"
+  ],
+  "init": [
+    "M01"
+  ],
+  "startup": [
+    "M01"
+  ],
+  "state": [
+    "M01",
+    "M02",
+    "M19"
+  ],
+  "process": [
+    "M01"
+  ],
+  "lifecycle": [
+    "M01"
+  ],
+  "trust": [
+    "M01"
+  ],
+  "memoize": [
+    "M01",
+    "M16"
+  ],
+  "configparseerror": [
+    "M01"
+  ],
+  "invalidconfigdialog": [
+    "M01"
+  ],
+  "agent": [
+    "M02",
+    "M14"
+  ],
+  "loop": [
+    "M02"
+  ],
+  "query": [
+    "M02"
+  ],
+  "streaming": [
+    "M02",
+    "M03",
+    "M05",
+    "M12"
+  ],
+  "context": [
+    "M02",
+    "M06",
+    "M19"
+  ],
+  "trim": [
+    "M02"
+  ],
+  "budget": [
+    "M02"
+  ],
+  "error": [
+    "M02"
+  ],
+  "recovery": [
+    "M02"
+  ],
+  "queryengine": [
+    "M02"
+  ],
+  "terminal": [
+    "M02"
+  ],
+  "stop": [
+    "M02"
+  ],
+  "taskcompleted": [
+    "M02"
+  ],
+  "teammateidle": [
+    "M02"
+  ],
+  "streamingtoolexecutor": [
+    "M02",
+    "M03"
+  ],
+  "simple": [
+    "M02"
+  ],
+  "queryengineconfig": [
+    "M02"
+  ],
+  "deps": [
+    "M02"
+  ],
+  "querydeps": [
+    "M02"
+  ],
+  "continue": [
+    "M02"
+  ],
+  "fallbacktriggerederror": [
+    "M02",
+    "M05"
+  ],
+  "read": [
+    "M02",
+    "M07",
+    "M14",
+    "SUPP-largeFiles"
+  ],
+  "edit": [
+    "M02",
+    "M07",
+    "M14",
+    "M18",
+    "SUPP-AgentSummary"
+  ],
+  "tool": [
+    "M03"
+  ],
+  "toolusecontext": [
+    "M03"
+  ],
+  "executor": [
+    "M03"
+  ],
+  "pipeline": [
+    "M03",
+    "M07"
+  ],
+  "tool interface": [
+    "M03"
+  ],
+  "filereadtool": [
+    "M03",
+    "SUPP-SessionMemory"
+  ],
+  "toolpermissioncontext": [
+    "M03"
+  ],
+  "deepimmutable": [
+    "M03",
+    "M19"
+  ],
+  "messageupdatelazy": [
+    "M03"
+  ],
+  "mcpservertype": [
+    "M03"
+  ],
+  "infinity": [
+    "M03"
+  ],
+  "toolsearchtool": [
+    "M03"
+  ],
+  "chq": [
+    "M03"
+  ],
+  "enterplanmodetool": [
+    "M03"
+  ],
+  "enterworktreetool": [
+    "M03"
+  ],
+  "killshell": [
+    "M03"
+  ],
+  "taskstop": [
+    "M03"
+  ],
+  "webfetch": [
+    "M03"
+  ],
+  "defaults": [
+    "M03"
+  ],
+  "permission": [
+    "M04"
+  ],
+  "safety": [
+    "M04"
+  ],
+  "security": [
+    "M04",
+    "M15"
+  ],
+  "bash": [
+    "M04",
+    "M07"
+  ],
+  "ast": [
+    "M04"
+  ],
+  "tree-sitter": [
+    "M04",
+    "M07"
+  ],
+  "sandbox": [
+    "M04"
+  ],
+  "approval": [
+    "M04"
+  ],
+  "canusetoolfn": [
+    "M04"
+  ],
+  "permissioncontext": [
+    "M04"
+  ],
+  "permissionapprovalsource": [
+    "M04"
+  ],
+  "permissionrejectionsource": [
+    "M04"
+  ],
+  "filesystempermissionrequest": [
+    "M04"
+  ],
+  "fallbackpermissionrequest": [
+    "M04"
+  ],
+  "tooluseconfirm": [
+    "M04"
+  ],
+  "permissionupdate": [
+    "M04"
+  ],
+  "kairos": [
+    "M04",
+    "M16"
+  ],
+  "abortsignal": [
+    "M04"
+  ],
+  "apiuseraborterror": [
+    "M04",
+    "M05",
+    "M06"
+  ],
+  "aborterror": [
+    "M04"
+  ],
+  "trustdialog": [
+    "M04"
+  ],
+  "permissionresult": [
+    "M04"
+  ],
+  "permissionrule": [
+    "M04"
+  ],
+  "sandboxmanager": [
+    "M04"
+  ],
+  "powershelltool": [
+    "M04",
+    "M07"
+  ],
+  "bashtool": [
+    "M04",
+    "M07",
+    "M14"
+  ],
+  "empty": [
+    "M04"
+  ],
+  "env": [
+    "M04"
+  ],
+  "redirections": [
+    "M04"
+  ],
+  "newlines": [
+    "M04"
+  ],
+  "veditor": [
+    "M04"
+  ],
+  "indexexpressionast": [
+    "M04"
+  ],
+  "binaryexpressionast": [
+    "M04"
+  ],
+  "psdefaultparametervalues": [
+    "M04"
+  ],
+  "commandparameterast": [
+    "M04"
+  ],
+  "clm": [
+    "M04"
+  ],
+  "api": [
+    "M05"
+  ],
+  "model": [
+    "M05"
+  ],
+  "fallback": [
+    "M05",
+    "M22"
+  ],
+  "cache": [
+    "M05",
+    "M14",
+    "SUPP-fileIndex"
+  ],
+  "provider": [
+    "M05",
+    "M19"
+  ],
+  "retry": [
+    "M05",
+    "M22"
+  ],
+  "anthropic": [
+    "M05"
+  ],
+  "messagestreamevent": [
+    "M05"
+  ],
+  "assistantmessage": [
+    "M05",
+    "M10",
+    "M12"
+  ],
+  "anthropicvertex": [
+    "M05"
+  ],
+  "uploadnonretriableerror": [
+    "M05"
+  ],
+  "compaction": [
+    "M06"
+  ],
+  "memory": [
+    "M06",
+    "SUPP-extractMemories",
+    "SUPP-teamMemorySync"
+  ],
+  "memdir": [
+    "M06"
+  ],
+  "summary": [
+    "M06"
+  ],
+  "token": [
+    "M06",
+    "M10",
+    "SUPP-SessionMemory"
+  ],
+  "window": [
+    "M06"
+  ],
+  "instructionsloaded": [
+    "M06"
+  ],
+  "file": [
+    "M07",
+    "SUPP-fileIndex",
+    "SUPP-largeFiles"
+  ],
+  "shell": [
+    "M07"
+  ],
+  "git": [
+    "M07"
+  ],
+  "mtime": [
+    "M07"
+  ],
+  "powershell": [
+    "M07"
+  ],
+  "write": [
+    "M07"
+  ],
+  "globtool": [
+    "M07"
+  ],
+  "greptool": [
+    "M07"
+  ],
+  "simplecommand": [
+    "M07"
+  ],
+  "subshell": [
+    "M07"
+  ],
+  "processsubstitution": [
+    "M07"
+  ],
+  "directoryentry": [
+    "M07"
+  ],
+  "directorysearcher": [
+    "M07"
+  ],
+  "managementobject": [
+    "M07"
+  ],
+  "managementclass": [
+    "M07"
+  ],
+  "managementobjectsearcher": [
+    "M07"
+  ],
+  "head": [
+    "M07"
+  ],
+  "junction": [
+    "M07"
+  ],
+  "hardlink": [
+    "M07"
+  ],
+  "stringconstant": [
+    "M07"
+  ],
+  "parameter": [
+    "M07"
+  ],
+  "variable": [
+    "M07"
+  ],
+  "other": [
+    "M07"
+  ],
+  "subexpression": [
+    "M07"
+  ],
+  "pipelineast": [
+    "M07"
+  ],
+  "commandast": [
+    "M07"
+  ],
+  "map": [
+    "M07"
+  ],
+  "mcp": [
+    "M08"
+  ],
+  "protocol": [
+    "M08",
+    "M10"
+  ],
+  "scope": [
+    "M08",
+    "M15"
+  ],
+  "oauth": [
+    "M08"
+  ],
+  "tool-model": [
+    "M08"
+  ],
+  "stub": [
+    "M08"
+  ],
+  "graft": [
+    "M08"
+  ],
+  "dedup": [
+    "M08"
+  ],
+  "channelpermissionnotificationschema": [
+    "M08"
+  ],
+  "lsp": [
+    "M09"
+  ],
+  "language-server": [
+    "M09"
+  ],
+  "plugin": [
+    "M09",
+    "M15"
+  ],
+  "discovery": [
+    "M09"
+  ],
+  "generation": [
+    "M09"
+  ],
+  "contentmodified": [
+    "M09"
+  ],
+  "epipe": [
+    "M09"
+  ],
+  "lspresultsummary": [
+    "M09"
+  ],
+  "scopedlspserverconfig": [
+    "M09"
+  ],
+  "lspserverstate": [
+    "M09"
+  ],
+  "lspservermanager": [
+    "M09"
+  ],
+  "markupcontent": [
+    "M09"
+  ],
+  "bridge": [
+    "M10"
+  ],
+  "ipc": [
+    "M10"
+  ],
+  "stdin": [
+    "M10"
+  ],
+  "json": [
+    "M10"
+  ],
+  "remote": [
+    "M10",
+    "M17"
+  ],
+  "websocket": [
+    "M10",
+    "M18"
+  ],
+  "sessionswebsocket": [
+    "M10"
+  ],
+  "workresponse": [
+    "M10"
+  ],
+  "worksecret": [
+    "M10"
+  ],
+  "hybridtransport": [
+    "M10",
+    "M18"
+  ],
+  "archivetelemetrystatus": [
+    "M10"
+  ],
+  "sdkmessage": [
+    "M10"
+  ],
+  "message": [
+    "M10",
+    "M12"
+  ],
+  "directconnecterror": [
+    "M10"
+  ],
+  "serverconfig": [
+    "M10"
+  ],
+  "sessionstate": [
+    "M10"
+  ],
+  "sessioninfo": [
+    "M10"
+  ],
+  "sessionindexentry": [
+    "M10"
+  ],
+  "ink": [
+    "M11"
+  ],
+  "render": [
+    "M11",
+    "M12",
+    "SUPP-colorDiff"
+  ],
+  "tui": [
+    "M11"
+  ],
+  "yoga": [
+    "M11",
+    "SUPP-yogaLayout"
+  ],
+  "layout": [
+    "M11",
+    "SUPP-yogaLayout"
+  ],
+  "buffer": [
+    "M11"
+  ],
+  "ansi": [
+    "M11"
+  ],
+  "screen": [
+    "M11"
+  ],
+  "react": [
+    "M11"
+  ],
+  "focusmanager": [
+    "M11",
+    "M20"
+  ],
+  "hostconfig": [
+    "M11"
+  ],
+  "scrollbox": [
+    "M11"
+  ],
+  "output": [
+    "M11"
+  ],
+  "concurrentroot": [
+    "M11"
+  ],
+  "tab": [
+    "M11"
+  ],
+  "enter": [
+    "M11"
+  ],
+  "styledtext": [
+    "M11"
+  ],
+  "action": [
+    "M11"
+  ],
+  "agenttool": [
+    "M11"
+  ],
+  "errata": [
+    "M11"
+  ],
+  "ratchet": [
+    "M11"
+  ],
+  "markdown": [
+    "M12"
+  ],
+  "virtual": [
+    "M12"
+  ],
+  "list": [
+    "M12"
+  ],
+  "usememo": [
+    "M12"
+  ],
+  "messages": [
+    "M12"
+  ],
+  "virtualmessagelist": [
+    "M12"
+  ],
+  "messagerow": [
+    "M12"
+  ],
+  "offscreenfreeze": [
+    "M12"
+  ],
+  "messagesimpl": [
+    "M12"
+  ],
+  "set": [
+    "M12"
+  ],
+  "stickytracker": [
+    "M12"
+  ],
+  "jumphandle": [
+    "M12"
+  ],
+  "markdownwithhighlight": [
+    "M12"
+  ],
+  "streamingmarkdown": [
+    "M12"
+  ],
+  "assistanttextmessage": [
+    "M12"
+  ],
+  "assistanttoolusemessage": [
+    "M12"
+  ],
+  "groupedtoolusecontent": [
+    "M12"
+  ],
+  "hookprogressmessage": [
+    "M12"
+  ],
+  "usertoolresultmessage": [
+    "M12"
+  ],
+  "collapsedreadsearchcontent": [
+    "M12"
+  ],
+  "attachmentmessage": [
+    "M12"
+  ],
+  "stickyprompttracker": [
+    "M12"
+  ],
+  "weakmap": [
+    "M12"
+  ],
+  "updateexpression": [
+    "M12"
+  ],
+  "input": [
+    "M13"
+  ],
+  "hook": [
+    "M13"
+  ],
+  "vim": [
+    "M13",
+    "M20"
+  ],
+  "paste": [
+    "M13"
+  ],
+  "suggestion": [
+    "M13"
+  ],
+  "promptinput": [
+    "M13"
+  ],
+  "useinput": [
+    "M13"
+  ],
+  "proactivecountdown": [
+    "M13"
+  ],
+  "dialogoverlay": [
+    "M13"
+  ],
+  "subagent": [
+    "M14"
+  ],
+  "task": [
+    "M14"
+  ],
+  "fork": [
+    "M14",
+    "SUPP-AgentSummary"
+  ],
+  "cleanup": [
+    "M14"
+  ],
+  "watchdog": [
+    "M14",
+    "M22"
+  ],
+  "abort": [
+    "M14"
+  ],
+  "teammateidentity": [
+    "M14"
+  ],
+  "backgroundtaskstate": [
+    "M14"
+  ],
+  "taskstatebase": [
+    "M14"
+  ],
+  "progresstracker": [
+    "M14"
+  ],
+  "localagenttask": [
+    "M14"
+  ],
+  "localshelltask": [
+    "M14"
+  ],
+  "structuredmessage": [
+    "M14"
+  ],
+  "flushgate": [
+    "M14"
+  ],
+  "sigkill": [
+    "M14"
+  ],
+  "remoteagenttask": [
+    "M14"
+  ],
+  "broadcastoutput": [
+    "M14"
+  ],
+  "requestoutput": [
+    "M14"
+  ],
+  "missingtimeouterror": [
+    "M14"
+  ],
+  "explore": [
+    "M14"
+  ],
+  "plan": [
+    "M14"
+  ],
+  "generalpurpose": [
+    "M14"
+  ],
+  "skill": [
+    "M15"
+  ],
+  "skill.md": [
+    "M15"
+  ],
+  "loadedfrom": [
+    "M15"
+  ],
+  "loadedfrominfo": [
+    "M15"
+  ],
+  "command": [
+    "M15",
+    "M16"
+  ],
+  "skillsmenu": [
+    "M15"
+  ],
+  "promise": [
+    "M15"
+  ],
+  "plugininstallationmanager": [
+    "M15"
+  ],
+  "skillpermissionrequest": [
+    "M15"
+  ],
+  "abortcontroller": [
+    "M15"
+  ],
+  "globally": [
+    "M15"
+  ],
+  "slash": [
+    "M16"
+  ],
+  "prompt": [
+    "M16"
+  ],
+  "dce": [
+    "M16"
+  ],
+  "lazy": [
+    "M16"
+  ],
+  "local": [
+    "M16"
+  ],
+  "component": [
+    "M16"
+  ],
+  "facets": [
+    "M16"
+  ],
+  "suspense": [
+    "M16"
+  ],
+  "errorboundary": [
+    "M16"
+  ],
+  "claubbit": [
+    "M16"
+  ],
+  "approveapikey": [
+    "M16"
+  ],
+  "bypassdialog": [
+    "M16"
+  ],
+  "setupoutcome": [
+    "M16"
+  ],
+  "config": [
+    "M17",
+    "SUPP-yogaLayout"
+  ],
+  "settings": [
+    "M17"
+  ],
+  "migration": [
+    "M17"
+  ],
+  "policy": [
+    "M17"
+  ],
+  "sync": [
+    "M17",
+    "SUPP-teamMemorySync"
+  ],
+  "etag": [
+    "M17"
+  ],
+  "policylimitsresponse": [
+    "M17"
+  ],
+  "telemetry": [
+    "M18"
+  ],
+  "analytics": [
+    "M18"
+  ],
+  "datadog": [
+    "M18"
+  ],
+  "opentelemetry": [
+    "M18"
+  ],
+  "growthbook": [
+    "M18"
+  ],
+  "feature-flag": [
+    "M18"
+  ],
+  "transport": [
+    "M18"
+  ],
+  "sse": [
+    "M18"
+  ],
+  "loggerprovider": [
+    "M18"
+  ],
+  "batchlogrecordprocessor": [
+    "M18"
+  ],
+  "ssetransport": [
+    "M18"
+  ],
+  "websockettransport": [
+    "M18"
+  ],
+  "retryableerror": [
+    "M18"
+  ],
+  "appstate": [
+    "M19"
+  ],
+  "createstore": [
+    "M19"
+  ],
+  "usesyncexternalstore": [
+    "M19"
+  ],
+  "appstateprovider": [
+    "M19"
+  ],
+  "hasappstatecontext": [
+    "M19"
+  ],
+  "appstorecontext": [
+    "M19"
+  ],
+  "completionboundary": [
+    "M19",
+    "SUPP-speculation"
+  ],
+  "speculationstate": [
+    "M19",
+    "SUPP-speculation"
+  ],
+  "activeagentforinput": [
+    "M19"
+  ],
+  "eperm": [
+    "M19"
+  ],
+  "voicekeybindinghandler": [
+    "M19"
+  ],
+  "priorities": [
+    "M19"
+  ],
+  "keybinding": [
+    "M20"
+  ],
+  "focus": [
+    "M20"
+  ],
+  "chord": [
+    "M20"
+  ],
+  "shortcut": [
+    "M20"
+  ],
+  "ctrl": [
+    "M20"
+  ],
+  "keybindingsetup": [
+    "M20"
+  ],
+  "chordinterceptor": [
+    "M20"
+  ],
+  "ref": [
+    "M20"
+  ],
+  "buddy": [
+    "M21"
+  ],
+  "voice": [
+    "M21"
+  ],
+  "moreright": [
+    "M21"
+  ],
+  "prng": [
+    "M21"
+  ],
+  "mulberry32": [
+    "M21"
+  ],
+  "anti-cheat": [
+    "M21"
+  ],
+  "animation": [
+    "M21"
+  ],
+  "bottomfloat": [
+    "M21"
+  ],
+  "test": [
+    "M22"
+  ],
+  "vcr": [
+    "M22"
+  ],
+  "mock": [
+    "M22"
+  ],
+  "di": [
+    "M22"
+  ],
+  "fixture": [
+    "M22"
+  ],
+  "mockscenario": [
+    "M22"
+  ],
+  "systemapierrormessage": [
+    "M22"
+  ],
+  "disable": [
+    "M22"
+  ],
+  "enable": [
+    "M22"
+  ],
+  "agentsummary": [
+    "SUPP-AgentSummary"
+  ],
+  "magicdoc": [
+    "SUPP-AgentSummary"
+  ],
+  "background": [
+    "SUPP-AgentSummary",
+    "SUPP-autoDream"
+  ],
+  "timer": [
+    "SUPP-AgentSummary"
+  ],
+  "idle": [
+    "SUPP-AgentSummary",
+    "SUPP-autoDream"
+  ],
+  "sessionmemory": [
+    "SUPP-SessionMemory"
+  ],
+  "compact": [
+    "SUPP-SessionMemory"
+  ],
+  "threshold": [
+    "SUPP-SessionMemory"
+  ],
+  "truncate": [
+    "SUPP-SessionMemory",
+    "SUPP-largeFiles"
+  ],
+  "extraction": [
+    "SUPP-SessionMemory"
+  ],
+  "fileedittool": [
+    "SUPP-SessionMemory",
+    "SUPP-colorDiff",
+    "SUPP-teamMemorySync"
+  ],
+  "autodream": [
+    "SUPP-autoDream"
+  ],
+  "dream": [
+    "SUPP-autoDream"
+  ],
+  "dreamtask": [
+    "SUPP-autoDream"
+  ],
+  "diff": [
+    "SUPP-colorDiff"
+  ],
+  "color": [
+    "SUPP-colorDiff"
+  ],
+  "patch": [
+    "SUPP-colorDiff"
+  ],
+  "highlight": [
+    "SUPP-colorDiff"
+  ],
+  "structureddiff": [
+    "SUPP-colorDiff"
+  ],
+  "colordiff": [
+    "SUPP-colorDiff"
+  ],
+  "colorfile": [
+    "SUPP-colorDiff"
+  ],
+  "extract": [
+    "SUPP-extractMemories"
+  ],
+  "persist": [
+    "SUPP-extractMemories"
+  ],
+  "store": [
+    "SUPP-extractMemories"
+  ],
+  "recall": [
+    "SUPP-extractMemories"
+  ],
+  "index": [
+    "SUPP-fileIndex"
+  ],
+  "search": [
+    "SUPP-fileIndex"
+  ],
+  "glob": [
+    "SUPP-fileIndex"
+  ],
+  "lookup": [
+    "SUPP-fileIndex"
+  ],
+  "large": [
+    "SUPP-largeFiles"
+  ],
+  "chunk": [
+    "SUPP-largeFiles"
+  ],
+  "stream": [
+    "SUPP-largeFiles"
+  ],
+  "limit": [
+    "SUPP-largeFiles"
+  ],
+  "compactionresult": [
+    "SUPP-largeFiles"
+  ],
+  "validationcontext": [
+    "SUPP-largeFiles"
+  ],
+  "speculation": [
+    "SUPP-speculation"
+  ],
+  "speculative": [
+    "SUPP-speculation"
+  ],
+  "prefetch": [
+    "SUPP-speculation"
+  ],
+  "optimistic": [
+    "SUPP-speculation"
+  ],
+  "parallel": [
+    "SUPP-speculation"
+  ],
+  "cachesafeparams": [
+    "SUPP-speculation"
+  ],
+  "team": [
+    "SUPP-teamMemorySync"
+  ],
+  "shared": [
+    "SUPP-teamMemorySync"
+  ],
+  "collaboration": [
+    "SUPP-teamMemorySync"
+  ],
+  "merge": [
+    "SUPP-teamMemorySync"
+  ],
+  "teammemorycontentschema": [
+    "SUPP-teamMemorySync"
+  ],
+  "teammemorydataschema": [
+    "SUPP-teamMemorySync"
+  ],
+  "teammemorytoomanyentriesschema": [
+    "SUPP-teamMemorySync"
+  ],
+  "teammemorysyncfetchresult": [
+    "SUPP-teamMemorySync"
+  ],
+  "teammemoryhashesresult": [
+    "SUPP-teamMemorySync"
+  ],
+  "teammemorysyncpushresult": [
+    "SUPP-teamMemorySync"
+  ],
+  "teammemorysyncuploadresult": [
+    "SUPP-teamMemorySync"
+  ],
+  "filewritetool": [
+    "SUPP-teamMemorySync"
+  ],
+  "flex": [
+    "SUPP-yogaLayout"
+  ],
+  "box": [
+    "SUPP-yogaLayout"
+  ],
+  "measure": [
+    "SUPP-yogaLayout"
+  ],
+  "node": [
+    "SUPP-yogaLayout"
+  ],
+  "value": [
+    "SUPP-yogaLayout"
+  ],
+  "style": [
+    "SUPP-yogaLayout"
+  ],
+  "layoutnode": [
+    "SUPP-yogaLayout"
+  ],
+  "yogalayoutnode": [
+    "SUPP-yogaLayout"
+  ]
+}

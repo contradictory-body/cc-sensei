@@ -1,0 +1,29 @@
+{
+  "name": "cc-sensei",
+  "version": "1.0.0",
+  "description": "Your AI's shortcut to mastering Claude Code's architecture — 310K lines distilled into 32 queryable modules via MCP.",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "cc-sensei": "dist/server.js"
+  },
+  "scripts": {
+    "build": "pnpm build:index && tsup",
+    "build:server": "tsup",
+    "build:index": "tsx scripts/build-index.ts",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js",
+    "rebuild": "pnpm build:index && pnpm build:server"
+  },
+  "keywords": ["mcp", "mcp-server", "claude-code", "ai-agent", "agent-architecture", "llm", "developer-tools", "anthropic"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}

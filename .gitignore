@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Knowledge data is local to the project but large
+# Uncomment the next line if you don't want to commit claude-code-main/
+# claude-code-main/
