@@ -16,6 +16,16 @@
     "rebuild": "pnpm build:index && pnpm build:server"
   },
   "keywords": ["mcp", "mcp-server", "claude-code", "ai-agent", "agent-architecture", "llm", "developer-tools", "anthropic"],
+  "files": [
+    "dist/",
+    "knowledge/",
+    "claude-code-main/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/contradictory-body/cc-sensei.git"
+  },
+  "homepage": "https://github.com/contradictory-body/cc-sensei",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1"

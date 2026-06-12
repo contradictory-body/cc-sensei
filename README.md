@@ -59,9 +59,17 @@ In one night, your AI becomes a world-class Agent architect.
 
 ## 🚀 Quick Start (3 steps)
 
-### Step 1 — Clone the project
+### Option A — Try instantly via npx (zero install)
 
-Open a terminal and copy-paste this line:
+```bash
+npx cc-sensei
+```
+
+> This downloads and runs the server directly. Skip to Step 3 to connect your AI.
+
+### Option B — Clone for full control
+
+#### Step 1 — Clone the project
 
 ```bash
 git clone https://github.com/contradictory-body/cc-sensei.git && cd cc-sensei

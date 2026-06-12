@@ -57,9 +57,17 @@
 
 ## 🚀 快速开始（3 步搞定）
 
-### 第 1 步 — 下载项目
+### 方案 A — npx 一键体验（零安装）
 
-打开终端，复制粘贴这一行：
+```bash
+npx cc-sensei
+```
+
+> 直接下载并运行服务器，跳到第 3 步连接你的 AI 即可。
+
+### 方案 B — 克隆源码（完整控制）
+
+#### 第 1 步 — 下载项目
 
 ```bash
 git clone https://github.com/contradictory-body/cc-sensei.git && cd cc-sensei
