@@ -2,6 +2,12 @@ node_modules/
 dist/
 *.tsbuildinfo
 
+# Internal planning docs (not for public)
+方案/
+
+# pnpm workspace (single-package project)
+pnpm-workspace.yaml
+
 # Knowledge data is local to the project but large
 # Uncomment the next line if you don't want to commit claude-code-main/
 # claude-code-main/
