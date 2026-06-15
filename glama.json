@@ -1,0 +1,33 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["contradictory-body"],
+  "name": "cc-sensei",
+  "description": "Distills Claude Code's 310K-line source into 32 queryable architecture modules via MCP. 6 tools for querying design decisions, reusable patterns, cross-cutting concerns, and source code.",
+  "license": "MIT",
+  "tools": [
+    {
+      "name": "list_modules",
+      "description": "List all 32 modules and their architectural concerns"
+    },
+    {
+      "name": "query_architecture",
+      "description": "Natural-language search across all modules with 3 depth levels (brief/standard/detailed)"
+    },
+    {
+      "name": "get_module",
+      "description": "Drill into one module's specific section (responsibility, architecture, decisions, principles, relations)"
+    },
+    {
+      "name": "trace_concern",
+      "description": "Trace one concern across all 32 modules, ranked by hit count"
+    },
+    {
+      "name": "search_patterns",
+      "description": "Bulk-extract reusable design patterns with built-in size limiting"
+    },
+    {
+      "name": "get_source_code",
+      "description": "Read Claude Code source files directly with line numbers, ranges, and directory listings"
+    }
+  ]
+}
